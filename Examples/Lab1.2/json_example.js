@@ -26,3 +26,17 @@ console.log(user.address.geo.lat);
 console.log(user.company.name);
 console.dir(user.company.cities);
 console.log(user.company.cities[0]);
+
+function print(message) {
+	console.log(message);
+}
+print("Hello");
+
+var password="123456"
+console.log(password=="123456"?"ALLOW":"DENY")
+
+if (password == "123456") {
+	console.log("permission accepted");
+} else {
+	console.log("permission denied");
+}
